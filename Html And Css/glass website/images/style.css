@@ -1,0 +1,9 @@
+.new-home_showcase_component {
+    background-color: var(--black);
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    display: flex;
+    overflow: hidden;
+}

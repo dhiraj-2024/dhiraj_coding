@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+li {
+    display: inline-block;
+}
+
+.nav{
+    background-color: #191919;
+    width: 30em;
+    height: 8em;
+    border-radius: 20px;
+    padding: 0 2em;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav_links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links a {
+    color: #fff;
+    font-size: 2.5em;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nav_light {
+    position: absolute;
+    top: 0;
+    left: 1.3em;
+    background-color: #fff;
+    width: 4em;
+    height: 0.4em;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.nav_light::before{
+    content: "";
+    width: 5em;
+    height: 7em;
+    position: absolute;
+    top: 0.4em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) -50%,
+    rgba(255, 255, 255, 0) 90%);
+    clip-path: polygon(30% 0, 70% 0, 100% 100%, 0% 100%);
+}
+
+.nav_link.active a {
+    opacity: 1;
+}
+
+.nav_link.active a .bx-home-alt-2 {
+    color: #00f7ff;
+    text-shadow: 0 0 15px #00f7ff,
+    0 0 30px #00f7ff,
+    0 0 45px #00f7ff,
+    0 0 60px #00f7ff;
+}
+
+.nav_link:nth-child(1).active~.nav_light {
+    background-color: #00f7ff;
+}
+
+.nav_link.active a .bx-heart {
+    color: #ff0000;
+    text-shadow: 0 0 15px #ff0000,
+    0 0 30px #ff0000,
+    0 0 45px #ff0000,
+    0 0 60px #ff0000;
+}
+
+.nav_link:nth-child(2).active~.nav_light {
+    background-color: #ff0000;
+}
+
+.nav_link.active a .bx-plus-circle {
+    color: #adff2f;
+    text-shadow: 0 0 15px #adff2f,
+    0 0 30px #adff2f,
+    0 0 45px #adff2f,
+    0 0 60px #adff2f;
+}
+
+.nav_link:nth-child(3).active~.nav_light {
+    background-color: #adff2f;
+}
+
+.nav_link.active a .bx-user {
+    color: #f707f7;
+    text-shadow: 0 0 15px #f707f7,
+    0 0 30px #f707f7,
+    0 0 45px #f707f7,
+    0 0 60px #f707f7;
+}
+
+.nav_link:nth-child(4).active~.nav_light {
+    background-color: #f707f7;
+}
+
+.nav_link.active a .bx-bell {
+    color: #eeff00;
+    text-shadow: 0 0 15px #eeff00,
+    0 0 30px #eeff00,
+    0 0 45px #eeff00,
+    0 0 60px #eeff00;
+}
+
+.nav_link:nth-child(5).active~.nav_light {
+    background-color: #eeff00;
+}
+

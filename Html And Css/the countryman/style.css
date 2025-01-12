@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    /* background-color: #222831; */
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+
+
+.logo a img {
+    /* height: 168px;
+    width: 325px;
+    margin: -64px; */
+    height: 106px;
+  width: 243px;
+  margin: -64px;
+    margin-top: -64px;
+  margin-top: -51px;
+}
+
+.logo {
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    left: 70px;
+}
+
+/* .border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+
+} */
+
+/* box2 stylying */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 350px;
+}
+
+.nav-search:hover {
+    border: 1px solid #00adb5;
+    border-radius: 4px;
+}
+
+.search-select {
+    width: 50px;
+    text-align: center;
+    color: rgb(61, 58, 62);
+    font-size: 14px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    font-size: 16px;
+    width: 300px;
+}
+
+.search-icon {
+    background-color: #00adb5;
+    color: black;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-signin {
+    color: rgb(254, 251, 251);
+    font-size: 16px;
+    position: absolute;
+    right:20px;
+}
+
+.nav-signin a button {
+    cursor: pointer;
+    font-size: 16px;
+    text-shadow: 0.4px 0.4px 0.4px #109191;
+    width: 123px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+/* ********************************************************** */
+
+.nav-profile{
+    position: absolute;
+    right:190px;
+}
+.nav-profile a {
+    text-decoration: none;
+}
+
+.nav-profile a i {
+    font-size: 25px;
+    color: #00adb5;
+}
+
+.nav-cart{
+    position: absolute;
+        right: 250px;
+        
+}
+.cart-logo {
+    display: inline-block;
+}
+
+.cart-logo i {
+    font-size: 27px;
+    color: #00adb5;
+
+}
+
+.cart-logo p {
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.p-size{
+    
+}
+
+/* pannle styling  */
+
+.pannle-dj {
+    height: 40px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* .pannle-all i {
+    font-size: 17px;
+    color: #00adb5;
+} */
+
+.pannle-all a p {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 12px;
+}
+.svg-icons{
+    margin-bottom: 3px;
+}
+
+.pannle-all p {
+    margin-left: 3px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.pannle-list {
+    width: 1000px;
+}
+
+.pannle-list p {
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+}
+
+/* main body styling */
+
+
+.container-1{
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align:center; 
+    background-image: url("");
+    background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+

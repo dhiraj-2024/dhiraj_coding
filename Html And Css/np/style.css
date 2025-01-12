@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:#0F1111;
+    color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* / Box 1  */
+.nav-logo{
+    height: 50px;
+    width: 112px;
+    display: flex;
+
+}
+
+.logo p{
+    /* display: inline-block; */
+    font-size: 25px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 7px;
+    /* padding: 1px 8px 0px 6px; */
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-logo p{
+    display: inline-block;
+    font-size: 25px;  
+    font-weight: 700;
+
+}
+#p1logo {
+    font-size: 17px; 
+    color: orange;
+margin-right: 3px;
+    padding-top: 10px;
+    margin-top: 7px;
+}
+/* / Box 2 / */
+.address{
+    color: white;
+    /* margin-left: 10px; */
+
+}
+.add1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 10px;
+
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.address-icon p{
+    margin-left: 3px;
+    font-weight: 750;
+}
+
+/* .address-icon i{
+    font-size: 13px;
+    font-weight: 985; 
+     margin-left:-2px;
+    height: 15px;
+    width: 18px;
+
+}
+.address-icon p{
+    font-size: 1rem;
+    margin: 3px;
+   
+    display: inline-block; 
+
+} */
+/* / Box 3 / */
+
+ .nav-search{
+    justify-content: space-evenly;
+    display: flex;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    /* background-color: white; */
+    /* margin-left: 10px; */
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+border: 3px solid #febd68
+}
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.3rem;
+   background-color: #febd68;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color: #0F1111;
+}
+/* / Box 4 / */
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+/* / Box 6 / */
+.nav-cart{
+    display: inline-block;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart p{
+    font-size: 0.85rem;
+}
